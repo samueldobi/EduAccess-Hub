@@ -21,7 +21,7 @@
 <!-- ======= Hero  Section ======= -->
 
 <!-- ======= Resources  Section ======= -->
- <section class="resources mt-5 gap-2">
+ <section class="resources mt-5 mb-5 gap-2">
     <h2 class=" text-center">
         Brief Overview of our resources
     </h2>
@@ -80,31 +80,31 @@
 <!-- ======= Resources  Section ======= -->
 
 <!-- ======= Accesibility   Section ======= -->
- <section class="accesibility-features">
+ <section class="accesibility-features mt-5 mb-5">
  <h2 class=" text-center">
         Accesibility Features
     </h2>
     <div class="container">
         <div class="">
-            <h3 class="fw-bold text-center">High Contrast Mode</h3>
+            <p class="fw-bold text-center fs-4">High Contrast Mode</p>
             <p class="text-center">
             Our high-contrast mode ensures that all content on EduAccess Hub is easily readable for users with visual impairments or those who prefer a higher contrast display. With a simple toggle, you can switch to a high-contrast color scheme that reduces eye strain and improves visibility.
             </p>
         </div>
         <div class="">
-            <h3 class="fw-bold text-center">Text-to-Speech Converter</h3>
+            <p class="fw-bold text-center fs-4">Text-to-Speech Converter</p>
             <p class="text-center">
             To accommodate users who benefit from auditory learning or those with reading difficulties, we provide a text-to-speech feature for all introductory content. This allows you to listen to our welcome messages, resource overviews, and other key information, making learning more accessible and inclusive.
             </p>
         </div>
         <div class="">
-            <h3 class="fw-bold text-center">Text-to-Speech Converter</h3>
+            <p class="fw-bold text-center fs-4">Speech-to-Text Converter</p>
             <p class="text-center">
-            To accommodate users who benefit from auditory learning or those with reading difficulties, we provide a text-to-speech feature for all introductory content. This allows you to listen to our welcome messages, resource overviews, and other key information, making learning more accessible and inclusive.
+            To accommodate users who benefit from visual learning or those with listening difficulties, we provide a speech-to-text feature for all introductory content. This allows you to listen to our welcome messages, resource overviews, and other key information, making learning more accessible and inclusive.
             </p>
         </div>
         <div class="">
-            <h3 class="fw-bold text-center">Keyboard Navigation</h3>
+            <p class="fw-bold text-center fs-4">Keyboard Navigation</p>
             <p class="text-center">
             Navigating EduAccess Hub is seamless and efficient, even without a mouse. Our website is designed with keyboard navigation in mind, enabling users to easily move through menus, access resources, and interact with content using keyboard shortcuts. This feature is particularly useful for individuals with motor impairments, ensuring that everyone can fully engage with our educational materials.
             </p>

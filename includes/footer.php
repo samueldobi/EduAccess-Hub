@@ -1,6 +1,10 @@
 <footer class="footer">
+<style>
+  .footer{
+  background-color: #FEFBD8;
+}
+</style>
 
-  <!-- Widgets - Bootstrap Brain Component -->
   <section class=" py-4 py-md-5 py-xl-8 border-top border-light">
     <div class="container overflow-hidden">
       <div class="row gy-4 gy-lg-0 justify-content-xl-between">
@@ -69,55 +73,19 @@
               </div>
             </form>
           </div>
+          
         </div>
+
+        <div class="copyright text-center text-center mt-5">
+            &copy; 2024. All Rights Reserved.
+          
+          <a target="_blank" href="https://icons8.com/icon/CEO59cK8uKjA/services">Services</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+        </div>
+      
       </div>
     </div>
   </section>
 
-  <!-- Copyright - Bootstrap Brain Component -->
-  <div class="bg-light py-4 py-md-5 py-xl-8 border-top border-light-subtle">
-    <div class="container overflow-hidden">
-      <div class="row gy-4 gy-md-0 align-items-md-center">
-        <div class="col-xs-12 col-md-7 order-1 order-md-0">
-          <div class="copyright text-center text-md-start">
-            &copy; 2024. All Rights Reserved.
-          </div>
-          <div class="credits text-secondary text-center text-md-start mt-2 fs-8">
-            Built by <a href="https://bootstrapbrain.com/" class="link-secondary text-decoration-none">BootstrapBrain</a> with <span class="text-primary">&#9829;</span>
-          </div>
-        </div>
-        <a target="_blank" href="https://icons8.com/icon/CEO59cK8uKjA/services">Services</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
-
-
-        <div class="col-xs-12 col-md-5 order-0 order-md-1">
-          <div class="social-media-wrapper">
-            <ul class="list-unstyled m-0 p-0 d-flex justify-content-center justify-content-md-end">
-              <li class="me-3">
-                <a href="#!" class="link-dark link-opacity-75-hover">
-                 <!-- svg was here -->
-                </a>
-              </li>
-              <li class="me-3">
-                <a href="#!" class="link-dark link-opacity-75-hover">
-                
-                </a>
-              </li>
-              <li class="me-3">
-                <a href="#!" class="link-dark link-opacity-75-hover">
-               
-                </a>
-              </li>
-              <li class="">
-                <a href="#!" class="link-dark link-opacity-75-hover">
-             
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
 
 </footer>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>

@@ -25,7 +25,7 @@
               <a class="nav-link mx-2 " aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link mx-2" href="#">Resources</a>
+              <a class="nav-link mx-2" href="resources.php">Resources</a>
             </li>
             <li class="nav-item">
               <a class="nav-link mx-2" href="#">Subjects</a>
