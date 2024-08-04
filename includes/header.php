@@ -12,9 +12,17 @@
  
 </head>
 <body>
+  <style>
+    a{
+      text-decoration: none;
+      color: #000;
+    }
+  </style>
 <nav class="navbar navbar-expand-sm navbar-light" id="neubar">
       <div class="container">
-        <a class="navbar-brand" href="#"><img src="/static_files/images/logos/logo_2.png" height="60" /></a>
+        <a class="navbar-brand" href="index.php">
+          EduAcess-Hub
+      </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -27,14 +35,14 @@
             <li class="nav-item">
               <a class="nav-link mx-2" href="resources.php">Resources</a>
             </li>
-            <li class="nav-item">
+            <!-- <li class="nav-item">
               <a class="nav-link mx-2" href="#">Subjects</a>
             </li>
             <li class="nav-item">
               <a class="nav-link mx-2" href="#">About</a>
-            </li>
+            </li> -->
             <li class="nav-item">
-              <a class="nav-link mx-2" href="#">Contact</a>
+              <a class="nav-link mx-2" href="contact.php">Contact</a>
             </li>
         
           </ul>

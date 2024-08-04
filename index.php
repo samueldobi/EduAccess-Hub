@@ -1,4 +1,14 @@
 <?php include 'includes/header.php' ?>
+<style>
+    a {
+        text-decoration: none;
+        color:#fff;
+    }
+    .btn{
+        background-color:#987D9A;
+        border: 1px solid #987D9A;
+    }
+</style>
 <!-- ======= Hero  Section ======= -->
  <section class="main mb-5">
     <div class="container">
@@ -6,9 +16,9 @@
         <div class="row p-5  align-items-center" >
                <div class="col-md-6 p-3">
                    <h1>Welcome to EduAccess Hub</h1>
-                   <p>At EduAccess Hub, we believe that quality education should be accessible to everyone, regardless of their background or physical abilities. Explore our vast library of free, inclusive educational resources designed to empower and inspire learners worldwide. Dive in and discover a world of knowledge at your fingertips!</p>
+                   <p>Discover a world of free educational resources at your fingertips. EduAccess Hub is your gateway to a vast collection of learning materials, including textbooks, video lessons, interactive quizzes, and more. Whether you're a student, educator, or lifelong learner, our curated links to high-quality resources across various subjects and languages will help you achieve your educational goals. Explore, learn, and grow with EduAccess Hub today!</p>
                    <div class="d-flex gap-2">
-                       <a href="" class="btn btn-dark">Call Us</a>
+                       <a href="" class="btn btn-dark">Contact Us</a>
                        <a href="" class="btn btn-outline-dark">Know More</a>
                    </div>
                </div>
@@ -21,7 +31,7 @@
 <!-- ======= Hero  Section ======= -->
 
 <!-- ======= Resources  Section ======= -->
- <section class="resources mt-5 mb-5 gap-2">
+ <section class="resources mt-5 mb-5 ">
     <h2 class=" text-center">
         Brief Overview of our resources
     </h2>
@@ -29,7 +39,7 @@
         Here are a list of our available resources
     </p>
     <div class="container">
-        <div class="row "> 
+        <div class="row justify-content-between"> 
 
 
             <div class=" resource-box col-md-3 m-2 ">
@@ -38,7 +48,7 @@
                     <p class="fw-bold text-center mt-3">
                         Textbooks and Resources
                     </p>
-                    <p class="">Comprehensive textbooks and e-books across various subjects, available for download in multiple formats, including PDF and ePub.</p>
+                    <p class="">Gain access to comprehensive textbooks and e-books across various subjects, available for download in multiple formats, including PDF and ePub.</p>
                 </div>
             </div>  
 
@@ -48,20 +58,10 @@
                     <p class="fw-bold text-center">
                         Video Lessons
                     </p>
-                    <p class="">Engaging video tutorials and lectures from expert educators, covering a wide range of topics. All videos come with subtitles and transcription for enhanced accessibility.</p>
+                    <p class="">discover Engaging video tutorials and lectures from expert educators, covering a wide range of topics. All videos come with subtitles and transcription for enhanced accessibility.</p>
                 </div>
             </div>  
 
-            <div class=" resource-box col-md-3 m-2 ">
-                <div class="">
-                    <img src="assets/images/icon3.png" alt="" class="img-fluid mx-auto d-block">
-                    <p class="fw-bold text-center">
-                        Audio Resources
-                    </p>
-                    <p class="">Listen to our collection of audio books and podcasts, perfect for learning on the go or for those who prefer auditory learning.</p>
-
-                </div>
-            </div>  
 
             <div class=" resource-box col-md-3 m-2 ">
                 <div class="">
@@ -69,7 +69,7 @@
                     <p class="fw-bold text-center">
                         Quizzes and Exercises
                     </p>
-                    <p class="">Test your knowledge with our interactive quizzes and exercises. Receive instant feedback and track your progress over time.</p>
+                    <p class="">Have access to a collection of  interactive quizzes and exercises.</p>
                 </div>
             </div>  
             
@@ -80,33 +80,34 @@
 <!-- ======= Resources  Section ======= -->
 
 <!-- ======= Accesibility   Section ======= -->
- <section class="accesibility-features mt-5 mb-5">
+ <section class="accesibility-features " >
  <h2 class=" text-center">
-        Accesibility Features
+        Three Key Benefits of EduAccess Hub
     </h2>
     <div class="container">
         <div class="">
-            <p class="fw-bold text-center fs-4">High Contrast Mode</p>
+            <p class="fw-bold text-center fs-4">Diverse Learning Resources</p>
             <p class="text-center">
-            Our high-contrast mode ensures that all content on EduAccess Hub is easily readable for users with visual impairments or those who prefer a higher contrast display. With a simple toggle, you can switch to a high-contrast color scheme that reduces eye strain and improves visibility.
+            Access a wide range of educational materials, from textbooks and video lessons to interactive quizzes and specialized content for diverse learning needs.
             </p>
         </div>
         <div class="">
-            <p class="fw-bold text-center fs-4">Text-to-Speech Converter</p>
+            <p class="fw-bold text-center fs-4">User-Friendly Navigation</p>
             <p class="text-center">
-            To accommodate users who benefit from auditory learning or those with reading difficulties, we provide a text-to-speech feature for all introductory content. This allows you to listen to our welcome messages, resource overviews, and other key information, making learning more accessible and inclusive.
+            Easily find the resources you need with our intuitive navigation, categorized content, and powerful search functionality, ensuring a seamless and efficient learning experience.
             </p>
         </div>
         <div class="">
-            <p class="fw-bold text-center fs-4">Speech-to-Text Converter</p>
+            <p class="fw-bold text-center fs-4">Curated Quality Links</p>
             <p class="text-center">
-            To accommodate users who benefit from visual learning or those with listening difficulties, we provide a speech-to-text feature for all introductory content. This allows you to listen to our welcome messages, resource overviews, and other key information, making learning more accessible and inclusive.
+            Benefit from a carefully curated collection of high-quality educational links, saving you time and ensuring you access reliable, authoritative, and effective learning resources.
             </p>
         </div>
         <div class="">
-            <p class="fw-bold text-center fs-4">Keyboard Navigation</p>
-            <p class="text-center">
-            Navigating EduAccess Hub is seamless and efficient, even without a mouse. Our website is designed with keyboard navigation in mind, enabling users to easily move through menus, access resources, and interact with content using keyboard shortcuts. This feature is particularly useful for individuals with motor impairments, ensuring that everyone can fully engage with our educational materials.
+            <p class="fw-bold text-center fs-4">
+            <button class="btn btn-primary"><a href = "resources.php"  >Get Started </a></button>
+            </p>
+          
             </p>
         </div>
     </div>

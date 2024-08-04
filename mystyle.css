@@ -18,6 +18,9 @@ body {
 /* *{
     border: 1px solid red;
 } *//* Navbar Styling */
+ .button{
+  background-color: var(--lightpurple);
+ }
 #neubar {
     box-shadow: 4px 6px 12px rgba(0,0,0,0.4);
   }
@@ -57,3 +60,7 @@ body {
  .resource-box {
     box-shadow: 4px 6px 12px rgba(0,0,0,0.4);
 } 
+.accesibility-features{
+  margin-top:200px;
+  margin-bottom:100px;
+}
